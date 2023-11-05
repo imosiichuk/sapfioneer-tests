@@ -17,7 +17,6 @@ Open the root folder of the project in a console and run the next command.
 ```shell
 npm i
 ```
-Open the root folder of the project in a console and run the next command.
 ```shell
 npx playwright install
 ```
