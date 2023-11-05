@@ -13,9 +13,16 @@ Validate successful installation of NPX.
 npx -v
 ```
 
+Open the root folder of the project in a console and run the next command.
+```shell
+npm i
+```
+
+Run 
+
 **Run tests in UI mode**
 
-Chrome and Firefox browsers are used for the test exection. Other browsers could be added by changing the `playwright.config.ts` file.
+Chrome and Firefox browsers are used for the test execution. Other browsers could be added by changing the `playwright.config.ts` file.
 
 To open tests on your machine run command from `sapfioneer-tests-main` directory.
 ```shell
@@ -39,4 +46,4 @@ npx playwright test --reporter=list
 ```
 
 ### Adding tests
-All locators and methods for particular pages or components are stored in `tests\Pages.ts` following the [Page Object models Patern](https://playwright.dev/docs/pom). Furthermore the fraemwork Playwright Test is based on the concept of [test fixtures](https://playwright.dev/docs/test-fixtures). Test fixtures are used to establish environment for each test, giving the test everything it needs and nothing else. Test fixtures are isolated between tests. To add a new fixture to the fraemwork use `fixtures\fixturePages.ts` file. 
+All locators and methods for particular pages or components are stored in `tests\Pages.ts` following the [Page Object models Patern](https://playwright.dev/docs/pom). Furthermore, the framework Playwright Test is based on the concept of [test fixtures](https://playwright.dev/docs/test-fixtures). Test fixtures are used to establish environment for each test, giving the test everything it needs and nothing else. Test fixtures are isolated between tests. To add a new fixture to the framework use `fixtures\fixturePages.ts` file. 
