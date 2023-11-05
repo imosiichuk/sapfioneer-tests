@@ -2,7 +2,7 @@
 
 **Install Node.js and NPM**
 
-Install NPM on your local machine. Here's the [instruction](https://phoenixnap.com/kb/install-node-js-npm-on-windows) for installation of Node.js and NPM. 
+Install NPM on your local machine. Here's the [instruction](https://nodejs.org/en/download) for installation of Node.js and NPM. 
 Validate successful installation of Node.js Packet Manager version 
 ```shell
 npm version
@@ -17,8 +17,10 @@ Open the root folder of the project in a console and run the next command.
 ```shell
 npm i
 ```
-
-Run 
+Open the root folder of the project in a console and run the next command.
+```shell
+npx playwright install
+```
 
 **Run tests in UI mode**
 
