@@ -14,7 +14,7 @@ export class MainActions {
   async click(locator: Locator) {
     await locator.click();
   }
-  async goTo(page: Page) {
+  async goTo(page) {
     await this.page.goto(page);
   }
 
