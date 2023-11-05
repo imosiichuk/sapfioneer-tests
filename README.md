@@ -14,6 +14,7 @@ npx -v
 ```
 
 **Run tests in UI mode**
+
 Chrome and Firefox browsers are used for the test exection. Other browsers could be added by changing the `playwright.config.ts` file.
 
 To open tests on your machine run command from `sapfioneer-tests-main` directory.
