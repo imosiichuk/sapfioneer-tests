@@ -1,11 +1,9 @@
 import { test as base } from "@playwright/test";
-import {
-  HeaderComponent,
-  FinancialProductsPage,
-  ContactUsPage,
-  MainPage,
-  MainActions,
-} from "../pages/Pages";
+import { MainActions } from "../components/mainActions";
+import { HeaderComponent } from "../components/headerComponent";
+import { FinancialProductsPage } from "../pages/financialProductsPage";
+import { ContactUsPage } from "../pages/ContactUsPage";
+import { MainPage } from "../pages/mainPage";
 
 type Pages = {
   headerComponent: HeaderComponent;
