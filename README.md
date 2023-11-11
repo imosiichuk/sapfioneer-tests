@@ -21,6 +21,8 @@ npm i
 npx playwright install
 ```
 
+(___)
+
 **Run tests in UI mode**
 
 Chrome and Firefox browsers are used for the test execution. Other browsers could be added by changing the `playwright.config.ts` file.
