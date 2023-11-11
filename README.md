@@ -21,7 +21,7 @@ npm i
 npx playwright install
 ```
 
-(***)
+(`***`)
 
 **Run tests in UI mode**
 
